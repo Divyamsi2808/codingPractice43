@@ -1,0 +1,94 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+
+.remove-all-cart-items-btn {
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  align-self: flex-end;
+  background-color: transparent;
+  cursor: pointer;
+  color: #0b69ff;
+}
+
+.cart-summary-container {
+  align-self: flex-end;
+  padding: 10px;
+  box-shadow: 2px 2px 4px 4px #3e4c59;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-of-cart-items {
+  font-size: 20px;
+  color: #616e7c;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.total-amount-text {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  color: #3e4c59;
+}
+
+.total-amount {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+.checkout-btn {
+  padding: 8px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  align-self: stretch;
+  outline: none;
+  border: none;
+}
